@@ -6,9 +6,7 @@ public class CLocation extends Location {
 
     private boolean bUseMetricUnits=false;
 
-    public CLocation(Location location) {
-        this(location, true);
-    }
+
     public CLocation(Location location, boolean bUseMetricUnits) {
         super(location);
         this.bUseMetricUnits = bUseMetricUnits;
